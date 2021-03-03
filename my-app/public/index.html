@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br" id="zero">
+  <head>
+    <title>mkashima studio</title>
+    <meta charset="utf-8" />
+    <link rel="icon" id='favicon' href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="mkashima studio ・ fotografia ・ alimentos ・ produtos"
+    />
+    <meta 
+      name="keywords" 
+      content="studio, fotografia, photo, alimentos, produtos, food, photography, fotos, estúdio, mkashima"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" sizes="192x192" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="%PUBLIC_URL%/logo512.png" />
+    <link rel="manifest" id='manifest' href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Start no context menu for image protection - desktop only -->
+    <script type="text/javascript">
+      function click (e) {
+        if (!e) {
+          e = window.event;
+        }
+        if ((e.type && e.type == "contextmenu") || (e.button && e.button == 2) || (e.which && e.which == 3)) {
+          return false;
+        }
+      }
+      if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+      }
+      document.onmousedown = click;
+      document.oncontextmenu = click;
+    </script>
+    <!-- End no context menu for image protection - desktop only -->
+
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+  </head>
+  <body>
+    <noscript>
+      Para completa funcionalidade deste site é necessário habilitar o JavaScript.
+      Aqui estão as <a href="https://www.enable-javascript.com/pt/"> instruções de como habilitar o JavaScript no seu navegador</a>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>
