@@ -1,6 +1,6 @@
 # mkashima
 
-Web Portifolio for mkashima studio.
+Web Portifolio for mkashima studio.  
 Made with React and deployed in GitHub Pages.
 
 Visible at http://www.mkashima.com  
