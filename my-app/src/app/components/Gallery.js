@@ -227,7 +227,7 @@ class Gallery extends React.Component {
               if (image.number === this.state.count){
                 notLast = false;
               }
-              if (image.name === 41)
+              if (image.number === 41)
               {
                 notLast = false;
               }
