@@ -40,7 +40,8 @@ import Gallery from './Gallery';
   import image34 from './images/food/p/image_l12_c1.jpg';
   import image35 from './images/food/p/image_l12_c2.jpg';
   import image36 from './images/food/p/image_l12_c3.jpg';
-  import image37 from './images/food/p/image_l13_c1.jpg';
+
+  import image38 from './images/food/p/image_l13_c2.jpg';
   
   import image1g from  './images/food/g/image_l1_c1.jpg';
   import image2g from  './images/food/g/image_l1_c2.jpg';
@@ -78,7 +79,8 @@ import Gallery from './Gallery';
   import image34g from './images/food/g/image_l12_c1.jpg';
   import image35g from './images/food/g/image_l12_c2.jpg';
   import image36g from './images/food/g/image_l12_c3.jpg';
-  import image37g from './images/food/g/image_l13_c1.jpg';
+
+  import image38g from './images/food/g/image_l13_c2.jpg';
 // -------- end of Images -------------------
 //
 // --------------- Styles -------------------
@@ -285,9 +287,9 @@ const imagesFood = [
     number:36,
   },
   {
-    name:image37,
-    g: image37g,
-    number:37,
+    name:image38,
+    g: image38g,
+    number:38,
   }
 ];
 

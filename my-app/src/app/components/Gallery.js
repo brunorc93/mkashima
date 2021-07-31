@@ -99,6 +99,19 @@ class Gallery extends React.Component {
       this.ref22 = React.createRef()
       this.ref23 = React.createRef()
       this.ref24 = React.createRef()
+      this.ref25 = React.createRef()
+      this.ref26 = React.createRef()
+      this.ref27 = React.createRef()
+      this.ref28 = React.createRef()
+      this.ref29 = React.createRef()
+      this.ref30 = React.createRef()
+      this.ref31 = React.createRef()
+      this.ref32 = React.createRef()
+      this.ref33 = React.createRef()
+      this.ref34 = React.createRef()
+      this.ref35 = React.createRef()
+      this.ref36 = React.createRef()
+      this.ref38 = React.createRef()
     // refs - end
     this.state = {
       columns: null,
@@ -112,6 +125,7 @@ class Gallery extends React.Component {
   getNext = (info) => {
     if (info<this.state.count){
       let next = info+1;
+      if (next === 37) next = next +1;
       this[`ref${next}`].current.handleOpenClick();
       this.setState({isOpen: false});
     }
@@ -120,6 +134,7 @@ class Gallery extends React.Component {
   getPrevious = (info) => {
     if (info>1){
       let previous = info-1;
+      if (previous === 37) previous = previous - 1;
       this[`ref${previous}`].current.handleOpenClick();
       this.setState({isOpen: false});
     }
@@ -208,6 +223,10 @@ class Gallery extends React.Component {
             if (image.number%3 === 2) {
               let notLast = true;
               if (image.number === this.state.count){
+                notLast = false;
+              }
+              if (image.number === 38)
+              {
                 notLast = false;
               }
               let notFirst = true;
