@@ -6,7 +6,7 @@ import Gallery from './Gallery';
 // --------------- Images -------------------
   import image1 from  './images/portrait/p/image_l1_c1.jpg';
   import image2 from  './images/portrait/p/image_l1_c2.jpg';
-  import image3 from  './images/industrial/p/image_l1_c3.jpg';
+  import image3 from  './images/portrait/p/image_l1_c3.jpg';
 
   import image1g from  './images/portrait/g/image_l1_c1.jpg';
   import image2g from  './images/portrait/g/image_l1_c2.jpg';
