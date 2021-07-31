@@ -207,22 +207,22 @@ class Modal extends React.Component {
         {this.state.isOpen && (
           <WallCover  top={this.props.navIsVisible ? nav_height : '0px'}
                       height={this.props.navIsVisible ? `calc(100vh - ${nav_height})` : '100vh'}>
-            <Left>
+            <Left onClick={this.handleCloseClick} >
               {this.props.notFirst && (
                 <img onClick={this.handlePrevious} className='arrow' src={left_arrow_svg}  alt='arrow to previous'/>
               )}
             </Left>
             <FlexVertical>
-              <Top minHeight={this.props.navIsVisible ? `calc( 15 * ((100vh - ${nav_height}) / 100))` : '10vh'}>
+              <Top onClick={this.handleCloseClick} minHeight={this.props.navIsVisible ? `calc( 15 * ((100vh - ${nav_height}) / 100))` : '10vh'}>
                 <StyledX onClick={this.handleCloseClick} src={x_svg} alt='click to close big image'/>
               </Top>
               <BigImage src={this.props.image.g}
                         alt={`${this.props.image.number}`}
                         maxHeight={this.props.navIsVisible ? `calc( 70 * ((100vh - ${nav_height}) / 100))` : '80vh'} 
                         />
-              <BlankBottom minHeight={this.props.navIsVisible ? `calc( 15 * ((100vh - ${nav_height}) / 100))` : '10vh'}/>
+              <BlankBottom onClick={this.handleCloseClick} minHeight={this.props.navIsVisible ? `calc( 15 * ((100vh - ${nav_height}) / 100))` : '10vh'}/>
             </FlexVertical>
-            <Right>
+            <Right onClick={this.handleCloseClick} >
               {this.props.notLast && (
                 <img onClick={this.handleNext} className='arrow' src={right_arrow_svg} alt='arrow to next'/>
               )}

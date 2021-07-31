@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 
-import { Industrial, About, Contact, Food, Navigation, ScrollToTop } from ".";
+import { Product, About, Contact, Food, Portrait, Navigation, ScrollToTop } from ".";
 
 // ------------ Variables -------------------
   import {color_blue} from './variables/colors.js'
@@ -93,14 +93,17 @@ class Main extends React.Component {
         <Content>
           <ScrollToTop>
           <Switch>
-            <Route path={`${this.props.match.path}industrial`}>
-              <Industrial/>
+            <Route path={`${this.props.match.path}product`}>
+              <Product/>
             </Route>
             <Route path={`${this.props.match.path}about`}>
               <About />
             </Route>
             <Route path={`${this.props.match.path}contact`}>
               <Contact />
+            </Route>
+            <Route path={`${this.props.match.path}portrait`}>
+              <Portrait />
             </Route>
             <Route path={`${this.props.match.path}food`}>
               <Food/>

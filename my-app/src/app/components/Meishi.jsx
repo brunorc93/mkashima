@@ -35,6 +35,7 @@ import styled from 'styled-components';
     grid-template-columns: 1fr min-content 1fr;  
     @media screen and (max-width: ${max_width}) {
       grid-template-columns: 1fr 100% 1fr;  
+      overflow-x: hidden;
     }
     @media screen and (min-width: ${max_width}) {
       min-width: 100vw;

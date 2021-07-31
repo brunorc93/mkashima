@@ -4,5 +4,6 @@ export { default as Navigation } from "./Navigation";
 export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Food } from "./Food";
-export { default as Industrial } from "./Industrial";
+export { default as Product } from "./Product";
+export { default as Portrait } from "./Portrait";
 export { default as ScrollToTop } from "./ScrollToTop";

@@ -28,6 +28,19 @@ import Gallery from './Gallery';
   import image22 from './images/food/p/image_l8_c1.jpg';
   import image23 from './images/food/p/image_l8_c2.jpg';
   import image24 from './images/food/p/image_l8_c3.jpg';
+  import image25 from './images/food/p/image_l9_c1.jpg';
+  import image26 from './images/food/p/image_l9_c2.jpg';
+  import image27 from './images/food/p/image_l9_c3.jpg';
+  import image28 from './images/food/p/image_l10_c1.jpg';
+  import image29 from './images/food/p/image_l10_c2.jpg';
+  import image30 from './images/food/p/image_l10_c3.jpg';
+  import image31 from './images/food/p/image_l11_c1.jpg';
+  import image32 from './images/food/p/image_l11_c2.jpg';
+  import image33 from './images/food/p/image_l11_c3.jpg';
+  import image34 from './images/food/p/image_l12_c1.jpg';
+  import image35 from './images/food/p/image_l12_c2.jpg';
+  import image36 from './images/food/p/image_l12_c3.jpg';
+  import image37 from './images/food/p/image_l13_c1.jpg';
   
   import image1g from  './images/food/g/image_l1_c1.jpg';
   import image2g from  './images/food/g/image_l1_c2.jpg';
@@ -53,6 +66,19 @@ import Gallery from './Gallery';
   import image22g from './images/food/g/image_l8_c1.jpg';
   import image23g from './images/food/g/image_l8_c2.jpg';
   import image24g from './images/food/g/image_l8_c3.jpg';
+  import image25g from './images/food/g/image_l9_c1.jpg';
+  import image26g from './images/food/g/image_l9_c2.jpg';
+  import image27g from './images/food/g/image_l9_c3.jpg';
+  import image28g from './images/food/g/image_l10_c1.jpg';
+  import image29g from './images/food/g/image_l10_c2.jpg';
+  import image30g from './images/food/g/image_l10_c3.jpg';
+  import image31g from './images/food/g/image_l11_c1.jpg';
+  import image32g from './images/food/g/image_l11_c2.jpg';
+  import image33g from './images/food/g/image_l11_c3.jpg';
+  import image34g from './images/food/g/image_l12_c1.jpg';
+  import image35g from './images/food/g/image_l12_c2.jpg';
+  import image36g from './images/food/g/image_l12_c3.jpg';
+  import image37g from './images/food/g/image_l13_c1.jpg';
 // -------- end of Images -------------------
 //
 // --------------- Styles -------------------
@@ -197,6 +223,71 @@ const imagesFood = [
     name:image24,
     g: image24g,
     number:24,
+  },
+  {
+    name:image25,
+    g: image25g,
+    number:25,
+  },
+  {
+    name:image26,
+    g: image26g,
+    number:26,
+  },
+  {
+    name:image27,
+    g: image27g,
+    number:27,
+  },
+  {
+    name:image28,
+    g: image28g,
+    number:28,
+  },
+  {
+    name:image29,
+    g: image29g,
+    number:29,
+  },
+  {
+    name:image30,
+    g: image30g,
+    number:30,
+  },
+  {
+    name:image31,
+    g: image31g,
+    number:31,
+  },
+  {
+    name:image32,
+    g: image32g,
+    number:32,
+  },
+  {
+    name:image33,
+    g: image33g,
+    number:33,
+  },
+  {
+    name:image34,
+    g: image34g,
+    number:34,
+  },
+  {
+    name:image35,
+    g: image35g,
+    number:35,
+  },
+  {
+    name:image36,
+    g: image36g,
+    number:36,
+  },
+  {
+    name:image37,
+    g: image37g,
+    number:37,
   }
 ];
 

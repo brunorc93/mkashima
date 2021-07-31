@@ -397,10 +397,18 @@ class Navigation extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to={`${this.props.match.url}industrial`} onClick={this.resetOpenState}>
+                <Link to={`${this.props.match.url}product`} onClick={this.resetOpenState}>
                   <div className="regular">
                     <img src={bullet_svg} alt='list bullet icon'/>
-                    <p>industrial</p>
+                    <p>produto</p>
+                  </div>
+                </Link>
+              </li>
+              <li>
+                <Link to={`${this.props.match.url}portrait`} onClick={this.resetOpenState}>
+                  <div className="regular">
+                    <img src={bullet_svg} alt='list bullet icon'/>
+                    <p>retrato</p>
                   </div>
                 </Link>
               </li>

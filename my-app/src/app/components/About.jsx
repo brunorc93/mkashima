@@ -21,7 +21,6 @@ import styled from 'styled-components';
     display: flex;
     @media screen and (min-width: ${mobile_screen}){
       height: min-content;
-      widtg: min-content;
     }
     @media screen and (max-width: ${mobile_screen}){
       flex-direction: column-reverse;
@@ -124,9 +123,11 @@ function About() {
           
           <p>Com uma bagagem multicultural eu mergulho de cabeça em projetos que envolvem fotografia e personalidade.</p>
           
-          <p>Atendendo à marcas com ensaios em estúdio ou no local. Atualmente no Rio de Janeiro, podendo trabalhar em multi-localidades.</p>
+          <p>Atendendo à marcas com ensaios em estúdio ou no local. Atualmente em Curitiba, podendo trabalhar em multi-localidades.</p>
 
-          <p>A minha maior motivação na fotografia é fazer os olhos das pessoas brilharem com o meu trabalho.<span className='bullet'>
+          <p>O meu foco é fotografia de alimentos e produtos, me conte um pouco sobre a sua empresa e eu ficarei animadíssima em poder ajudar a elevar a imagem da sua marca!</p>
+
+          <p>Além de fotografia, também trabalho com design gráfico desde 2010 e sou formada em Engenharia Elétrica na UFRJ. Estou constantemente à procura de expandir meus conhecimentos e de portas abertas para novas experiências.<span className='bullet'>
             <img src={bullet_svg} alt='list bullet icon'/> </span> </p>
           <p />
         </TextWrapper>

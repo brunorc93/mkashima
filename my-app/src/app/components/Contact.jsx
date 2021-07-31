@@ -31,6 +31,7 @@ import emailjs from 'emailjs-com';
       justify-items: start;
     }
     @media screen and (max-width: ${mobile_screen}){
+      overflow-x: hidden;
       flex-direction: column-reverse;
       align-items: center;
     }
@@ -378,7 +379,7 @@ class Contact extends React.Component {
               Maisa Kashima
             </p>
             <p className = 'location'>
-             <span className='pin'>📍</span> Rio de Janeiro, Brasil
+             <span className='pin'>📍</span> Curitiba, Brasil
             </p>
           </NameAndLocation>
         </FormWrapper>

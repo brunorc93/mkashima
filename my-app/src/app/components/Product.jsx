@@ -12,6 +12,16 @@ import Gallery from './Gallery';
   import image6 from  './images/industrial/p/image_l2_c3.jpg';
   import image7 from  './images/industrial/p/image_l3_c1.jpg';
   import image8 from  './images/industrial/p/image_l3_c2.jpg';
+  import image9 from  './images/industrial/p/image_l3_c3.jpg';
+  import image10 from  './images/industrial/p/image_l4_c1.jpg';
+  import image11 from  './images/industrial/p/image_l4_c2.jpg';
+  import image12 from  './images/industrial/p/image_l4_c3.jpg';
+  import image13 from  './images/industrial/p/image_l5_c1.jpg';
+  import image14 from  './images/industrial/p/image_l5_c2.jpg';
+  import image15 from  './images/industrial/p/image_l5_c3.jpg';
+  import image16 from  './images/industrial/p/image_l6_c1.jpg';
+  import image17 from  './images/industrial/p/image_l6_c2.jpg';
+  import image18 from  './images/industrial/p/image_l6_c3.jpg';
   
   import image1g from  './images/industrial/g/image_l1_c1.jpg';
   import image2g from  './images/industrial/g/image_l1_c2.jpg';
@@ -21,6 +31,16 @@ import Gallery from './Gallery';
   import image6g from  './images/industrial/g/image_l2_c3.jpg';
   import image7g from  './images/industrial/g/image_l3_c1.jpg';
   import image8g from  './images/industrial/g/image_l3_c2.jpg';
+  import image9g from  './images/industrial/g/image_l3_c3.jpg';
+  import image10g from  './images/industrial/g/image_l4_c1.jpg';
+  import image11g from  './images/industrial/g/image_l4_c2.jpg';
+  import image12g from  './images/industrial/g/image_l4_c3.jpg';
+  import image13g from  './images/industrial/g/image_l5_c1.jpg';
+  import image14g from  './images/industrial/g/image_l5_c2.jpg';
+  import image15g from  './images/industrial/g/image_l5_c3.jpg';
+  import image16g from  './images/industrial/g/image_l6_c1.jpg';
+  import image17g from  './images/industrial/g/image_l6_c2.jpg';
+  import image18g from  './images/industrial/g/image_l6_c3.jpg';
 // -------- end of Images -------------------
 //
 // --------------- Styles -------------------
@@ -47,7 +67,7 @@ import Gallery from './Gallery';
     min-height: 10px;
   `
 // -------- end of Styles -------------------
-const imagesIndustrial = [ 
+const imagesProduct = [ 
   {
     name: image1,
     g: image1g,
@@ -87,17 +107,67 @@ const imagesIndustrial = [
     name:image8,
     g: image8g,
     number:8,
+  },
+  {
+    name:image9,
+    g: image9g,
+    number:9,
+  },
+  {
+    name:image10,
+    g: image10g,
+    number:10,
+  },
+  {
+    name:image11,
+    g: image11g,
+    number:11,
+  },
+  {
+    name:image12,
+    g: image12g,
+    number:12,
+  },
+  {
+    name:image13,
+    g: image13g,
+    number:13,
+  },
+  {
+    name:image14,
+    g: image14g,
+    number:14,
+  },
+  {
+    name:image15,
+    g: image15g,
+    number:15,
+  },
+  {
+    name:image16,
+    g: image16g,
+    number:16,
+  },
+  {
+    name:image17,
+    g: image17g,
+    number:17,
+  },
+  {
+    name:image18,
+    g: image18g,
+    number:18,
   }
 ];
 
-class Industrial extends React.Component{
+class Product extends React.Component{
 
   render() {
     return(
       <StyledDiv>
         <HorizontalHolder>
           <BlankSide/>
-          <Gallery images={imagesIndustrial}/>
+          <Gallery images={imagesProduct}/>
         </HorizontalHolder>
         <Blank/>
       </StyledDiv>
@@ -105,4 +175,4 @@ class Industrial extends React.Component{
   }
 }
 
-export default Industrial;
+export default Product;
